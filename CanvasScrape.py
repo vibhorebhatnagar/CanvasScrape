@@ -105,7 +105,7 @@ lasts for the entirety of this run of the program.
 '''
 
 def openDBconn():
-	conn = sqlite3.connect('C:/Users/USERNAME/Desktop/twilio project/project.db')
+	conn = sqlite3.connect('./project.db')
 	return conn
 
 '''
